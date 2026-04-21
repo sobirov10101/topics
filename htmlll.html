@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Profilim</title>
+    <style>
+        /* Umumiy uslublar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Profil kartochkasi */
+        .profile-card {
+            background-color: #fff;
+            width: 350px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007bff;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Ko'nikmalar bo'limi */
+        .skills {
+            margin: 20px 0;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #e1ecf4;
+            color: #39739d;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin: 4px;
+            font-weight: bold;
+        }
+
+        /* Tugmalar */
+        .links {
+            margin-top: 25px;
+        }
+
+        .btn {
+            display: block;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-github {
+            background-color: #333;
+        }
+
+        .btn-github:hover {
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="https://via.placeholder.com/120" alt="Profil rasmi" class="profile-image">
+        
+        <h1>Ismingiz Familiyangiz</h1>
+        <p>Software Developer | Python & Web Enthusiast</p>
+
+        <div class="skills">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Telegram Bots</span>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/username" class="btn btn-github" target="_blank">GitHub Profilim</a>
+            <a href="mailto:example@mail.com" class="btn">Bog'lanish</a>
+        </div>
+    </div>
+
+</body>
+</html>
