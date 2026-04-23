@@ -1,0 +1,16 @@
+.hisobchi{
+    text-align: center;
+    line-height: 50;
+}
+button{
+    padding: 20px 100px;
+    background-color: coral;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(94, 79, 79);
+}
+button:hover{
+    background: linear-gradient( to right , #944242,#332323,#980909);
+    color: #7970708f;
+
+}
