@@ -1,0 +1,135 @@
+
+
+.box{
+  background-color: dimgrey;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box h2{
+  margin: 0;
+  padding-left: 0px;
+  color: white;
+}
+.div1{
+  display: flex;
+  align-items: center;
+}
+.box img{
+  margin-left: 250px;
+}
+.menu a{
+  margin-left: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+section{
+  background-image: url(welcomUzb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 350px;
+}
+.box2{
+  text-align: center;
+  padding-top: 350px;
+}
+.tugma{
+  background-color: rgb(235, 10, 10);
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.card{
+  float: left;
+  width: 350px;
+  background: white;
+  border: 1px solid;
+  padding: 24px;
+  margin: 20px;
+
+}
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card h3{
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+.card p{
+  color: #444;
+  line-height: 1,4;
+}
+.button{
+  display: inline-block;
+  margin-top: 10px;
+  background: red;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+
+
+.viloyatlar{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+.viloyatlar{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.list{
+  display: flex;
+  justify-content: center;
+}
+.list ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list ul li{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 250px;
+  background-color: aqua;
+}
