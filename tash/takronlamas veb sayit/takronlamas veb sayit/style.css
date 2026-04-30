@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* HEADER */
+header {
+  background: #2e3a43;
+  color: #fff;
+  padding: 10px 0;
+  border-bottom: 2px solid #e8491d;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+}
+
+header h1 span {
+  color: #e8491d;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  color: #e8491d;
+}
+
+/* SHOWCASE */
+.showcase {
+  background: url('https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.showcase h1 {
+  font-size: 2.5rem;
+}
+
+.subscribe {
+  background: #2e3a43;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.subscribe input {
+  padding: 8px;
+  width: 250px;
+  border: none;
+  border-radius: 2px;
+}
+
+.subscribe button {
+  padding: 9px 15px;
+  border: none;
+  background: #e8491d;
+  color: white;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background: #fff;
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+}
+
+.feature img {
+  width: 80px;
+}
+
+/* ABOUT */
+.about {
+  padding: 30px 0;
+}
+
+.about-box {
+  background: #2e3a43;
+  color: white;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.what-we-do {
+  background: #2e3a43;
+  color: white;
+  padding: 20px;
+  float: right;
+  width: 40%;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.service {
+  background: #eee;
+  padding: 15px;
+  width: 55%;
+  margin-bottom: 15px;
+}
+
+.quote-box {
+  background: #2e3a43;
+  color: white;
+  padding: 20px;
+  width: 35%;
+  height: fit-content;
+}
+
+.quote-box input,
+.quote-box textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+}
+
+.quote-box button {
+  background: #e8491d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #e8491d;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+margin-top: 20px;
+}
